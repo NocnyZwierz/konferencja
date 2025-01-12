@@ -8,13 +8,13 @@ const Location = () => {
   return (
     <div className={style.mainDiv}>
       <div className={style.siteSection}>
-        <h2>{translate('location.location')}</h2>
+        <h2>{translate("location.location")}</h2>
         <div>
           <p className={style.description}>{translate("location.name")}</p>
           <p className={style.description}>{translate("location.address")}</p>
         </div>
       </div>
-			<p>Hotele w okolicy</p>
+      <p>Hotele w okolicy</p>
       <Row className={style.row}>
         <ul>
           <li>

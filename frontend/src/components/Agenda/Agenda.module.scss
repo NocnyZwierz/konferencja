@@ -61,38 +61,38 @@
       z-index: 1;
       transition: color 0.3s ease;
       text-transform: uppercase;
-    
+
       &:hover {
         color: #fff;
       }
-    
+
       &:before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: -100%;
-        width: 200%; 
+        width: 200%;
         height: 100%;
         background: linear-gradient(to right, #c80033, #fd5639);
         transition: transform 0.5s ease;
         z-index: -1;
         transform: translateX(-100%);
       }
-    
+
       &:hover:before {
         transform: translateX(0);
       }
     }
-    
+
     .activeButton {
       color: #fff;
       background: linear-gradient(to right, #c80033, #fd5639);
       font-weight: bold;
-    
+
       &:hover {
         color: #fff;
       }
-    
+
       &:before {
         transform: translateX(0);
       }

@@ -1,0 +1,81 @@
+.mainDiv {
+  margin: 0 auto;
+  max-width: 1280px;
+
+  .siteSection {
+    position: relative;
+    text-align: left;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    h2 {
+      position: relative;
+      font-size: 2rem;
+      color: white;
+      padding-bottom: 30px;
+      padding-left: 50px;
+      letter-spacing: 0.2em;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 150px;
+        height: 4px;
+        background: linear-gradient(to right, #c80033, #fd5639);
+      }
+    }
+
+    .description {
+      max-width: 400px;
+      color: #cfcfd1;
+      font-size: 1rem;
+      margin-left: 20px;
+      text-align: right;
+      font-size: 1rem;
+      letter-spacing: 0.1em;
+      margin-right: 20px;
+    }
+  }
+  
+  img {
+    width: 80%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+    padding-bottom: 50px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  p{
+    color: #cfcfd1;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+
+  .carousel-indicators li {
+    background-color: #ff69b4;
+  }
+
+  @media (max-width: 1024px) {
+
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 375px) {
+
+  }
+}

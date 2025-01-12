@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: right;
+  max-width: 1280px;
+  gap: 30px;
+  padding-top: 10px;
+  margin: 0 auto;
+
+  .img {
+    padding-right: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  @media (max-width: 1024px) {
+
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 375px) {
+
+  }
+}

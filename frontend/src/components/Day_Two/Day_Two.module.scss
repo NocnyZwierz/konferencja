@@ -1,0 +1,48 @@
+.dayTwo {
+  margin-top: 50px;
+
+  .schedule {
+    list-style: none;
+    padding: 0;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 15px;
+      padding: 15px;
+      color: white;
+      border-bottom: 2px solid #3f4046;
+
+      strong {
+        flex-shrink: 0;
+        width: 200px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      div {
+        margin-left: 20%; 
+        flex-grow: 1;
+      }
+
+      p {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #cfcfd1;
+        
+      }
+
+      &:hover {
+        background-color: #3f4046;
+        transition: all 0.3s ease;
+
+        p {
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}
+  

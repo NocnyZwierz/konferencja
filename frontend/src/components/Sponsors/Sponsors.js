@@ -29,9 +29,11 @@ const Sponsors = () => {
           </div>
         ))}
       </div>
-      <button className={style.ctaButton}>
-        {translate("sponsors.button")}
-      </button>
+      <div class={style.buttonContainer}>
+        <button className={style.ctaButton}>
+          {translate("sponsors.button")}
+        </button>
+      </div>
     </div>
   );
 };

@@ -46,7 +46,7 @@ const ContactForm = () => {
         <p className={style.description}>{translate("agenda.info")}</p>
       </div>
       <Row className={style.content}>
-        <Col>
+        <Col className={style.col1}>
           <div>
             <h1>{translate("header.title")}</h1>
             <h2 className={style.innerH}>{translate("header.subtitle")}</h2>

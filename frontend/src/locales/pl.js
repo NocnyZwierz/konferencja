@@ -67,28 +67,28 @@ const pl = {
     title: "Dzień Drugi",
     welcome: "Poranna sesja networkingowa",
 
-    topic1: '- Wystąpienie główne: "AI we współczesnym UI/UX"',
+    topic1: 'Wystąpienie główne: "AI we współczesnym UI/UX"',
     speaker1: "John Doe",
     speaker1p:
       "Omówienie wpływu sztucznej inteligencji na projektowanie interfejsów użytkownika i doświadczeń użytkowników.",
 
     coffe: "Przerwa kawowa",
 
-    topic2: '- Panel dyskusyjny: "Etyka UX w kontekście AI"',
+    topic2: 'Panel dyskusyjny: "Etyka UX w kontekście AI"',
     speaker2: "Maria Nowak",
     speaker2p:
       "Dyskusja na temat wyzwań etycznych związanych z projektowaniem UX w erze sztucznej inteligencji.",
 
     lunch: "Przerwa obiadowa",
 
-    topic3: '- Warsztaty: "Najlepsze praktyki projektowania inkluzywnego"',
+    topic3: 'Warsztaty: "Najlepsze praktyki projektowania inkluzywnego"',
     speaker3: "Robert Lewandowski",
     speaker3p:
       "Praktyczne podejście do projektowania dostępnych i inkluzywnych rozwiązań.",
 
     afternoon: "Przerwa popołudniowa",
 
-    topic4: '- Sesja praktyczna: "Zaawansowane techniki prototypowania"',
+    topic4: 'Sesja praktyczna: "Zaawansowane techniki prototypowania"',
     speaker4: "Tom Smith",
     speaker4p:
       "Zajęcia praktyczne dotyczące zaawansowanych metod prototypowania i testowania interfejsów.",
@@ -138,6 +138,7 @@ const pl = {
     "Copyright © 2025 Wszystkie prawa zastrzeżone | Ten szablon został stworzony z pasją przez Pawła Grabczaka",
   location: {
     location: "Lokalizacja",
+    places: "Hotels in the area",
     name: "Szawa Conference - Centrum Konferencyjne",
     address: "Budynek Oxygen Park, Jutrzenki 137, 02-231 Warszawa",
     hotel: {

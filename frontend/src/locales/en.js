@@ -136,6 +136,7 @@ const en = {
     "Copyright © 2025 All rights reserved | This template is made with  by Paweł Grabczak",
   location: {
     location: "Location",
+    places: "Hotels in the area",
     name: "Szawa Conference - Conference Center",
     address: "Oxygen Park Building, Jutrzenki 137, 02-231 Warsaw",
     hotel: {

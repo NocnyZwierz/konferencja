@@ -14,7 +14,7 @@ const Location = () => {
           <p className={style.description}>{translate("location.address")}</p>
         </div>
       </div>
-      <p>Hotele w okolicy</p>
+      <p>{translate("location.places")}</p>
       <Row className={style.row}>
         <ul>
           <li>
